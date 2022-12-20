@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,11 @@
   "bugs": {
     "url": "https://github.com/sagirr/testapp/issues"
   },
-  "homepage": "https://github.com/sagirr/testapp#readme",
+  "homepage": "https://sagirr.github.io/testapp",
   "dependencies": {
     "express": "4.18.2"
+  },
+  "devDependencies": {
+    "gh-pages": "4.0.0"
   }
 }
