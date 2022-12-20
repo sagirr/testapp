@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sagirr.github.io/testapp",
   "name": "testproje",
   "version": "1.0.0",
   "description": "sagir",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/sagirr/testapp/issues"
   },
-  "homepage": "https://sagirr.github.io/testapp",
+ 
   "dependencies": {
     "express": "4.18.2"
   },
